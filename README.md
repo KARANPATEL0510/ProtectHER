@@ -1,39 +1,61 @@
-# ProtectHER
+<div align="center">
 
-ProtectHER is a security-focused Android application built to help users recognize risky situations, monitor suspicious behavior, and quickly notify trusted contacts in emergencies.
+# 🛡️ ProtectHER
 
-The app combines real-time risk analysis, location awareness, smart follow detection, and emergency communication tools to support personal safety.
+**Your personal safety companion for real-time risk awareness, smart detection, and emergency support**
 
-## Why this project exists
+[![Android](https://img.shields.io/badge/Android-Platform-3DDC84?style=for-the-badge&logo=android)](https://developer.android.com)
+[![Java](https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk)](https://www.java.com)
+[![Material](https://img.shields.io/badge/Material-Design-2196F3?style=for-the-badge&logo=materialdesign)](https://m3.material.io)
+[![Location API](https://img.shields.io/badge/Google-Location-4285F4?style=for-the-badge&logo=google)](https://developers.google.com/maps/documentation/android-sdk)
 
-Safety apps often need to do more than send a simple alert. ProtectHER is built around the idea of proactive protection:
+</div>
 
-- continuously evaluating risk conditions
-- detecting suspicious repeated patterns in nearby Bluetooth and Wi-Fi signals
-- supporting emergency SMS and live location sharing
-- enabling quick check-ins and safe-zone awareness
+ProtectHER is a safety-first Android app designed to help users stay alert, monitor suspicious activity, and notify trusted contacts quickly during emergencies. It combines real-time risk scoring, smart follow detection, location sharing, and emergency communication in one mobile experience.
 
-## Key features
+## ✨ Why ProtectHER?
 
-- Live danger score based on location risk, time of day, movement, battery level, and network availability
-- Smart Follow detection using Bluetooth and Wi-Fi signal recurrence to estimate suspicious following behavior
-- SOS emergency alerts to trusted contacts
-- Live location sharing for ongoing monitoring
-- Safe-zone and geofence awareness for risky or restricted areas
-- Safe check-in workflow for routine status updates
-- Voice-triggered guardian mode for emergency interaction
-- Contact management for trusted emergency contacts
+Everyday safety is not just about reacting after something goes wrong — it is also about recognizing risk early.
 
-## Tech stack
+ProtectHER helps users by:
+
+- tracking risky conditions in real time
+- identifying suspicious repeated Bluetooth and Wi-Fi patterns
+- measuring danger using multiple live signals
+- sending SOS alerts to trusted contacts
+- supporting safe check-ins and location updates
+
+## 🚀 Core Features
+
+| Feature | What it does |
+|---|---|
+| Live Danger Score | Evaluates risk using location, time, movement, battery, and network conditions |
+| Smart Follow Detection | Detects recurring nearby signals to estimate suspicious following behavior |
+| SOS Alert System | Sends emergency SMS messages to trusted contacts |
+| Live Location Sharing | Lets users share location updates with support contacts |
+| Safe Zones | Tracks risky areas and geofence-based awareness |
+| Voice Guardian Mode | Supports quick, voice-driven emergency interactions |
+| Trusted Contacts | Makes emergency communication faster and more reliable |
+
+## 🧠 How It Works
+
+1. The app monitors live sensor and location data.
+2. It calculates a danger score based on situational context.
+3. It scans nearby Bluetooth and Wi-Fi signals for pattern repetition.
+4. If the risk crosses a threshold, the app can trigger alerts and updates.
+5. Trusted contacts receive emergency notifications and location details when needed.
+
+## 🛠️ Tech Stack
 
 - Android (Java)
-- AndroidX and Material Components
+- AndroidX + Material Design
 - Google Play Services Location
-- Fused Location Provider and Geofencing APIs
-- Bluetooth LE and Wi-Fi signal analysis
-- SMS-based emergency communication
+- Bluetooth LE scanning
+- Wi-Fi signal monitoring
+- SMS emergency alerts
+- Geofencing and live tracking APIs
 
-## Project structure
+## 📁 Project Structure
 
 ```text
 ProtectHER/
@@ -47,7 +69,6 @@ ProtectHER/
 ├── gradlew
 ├── gradlew.bat
 ├── gradle.properties
-├── local.properties
 ├── README.md
 ├── .gitignore
 ├── gradle/
@@ -56,16 +77,16 @@ ProtectHER/
 └── app/release/
 ```
 
-## Getting started
+## 🏁 Getting Started
 
 ### Prerequisites
 
 - Android Studio
 - JDK 11 or newer
 - Android SDK configured for API 29+
-- A physical Android device or emulator
+- Android device or emulator
 
-### Build and run
+### Run the app
 
 ```bash
 git clone https://github.com/KARANPATEL0510/ProtectHER.git
@@ -75,26 +96,32 @@ cd ProtectHER
 
 Then open the project in Android Studio and run it on a connected device or emulator.
 
-## Permissions used
+## 🔐 Permissions Used
 
-The app may request permissions for:
+The app may request access to:
 
-- location access
-- SMS sending
+- location
+- SMS
 - Bluetooth scanning and connection
 - Wi-Fi access
-- microphone access
+- microphone
 - notifications
 
-These permissions support live safety monitoring, tracking, and emergency response actions.
+These permissions help support emergency alerts, live tracking, and real-time safety monitoring.
 
-## Important notes
+## ⚠️ Notes
 
 - This app is intended for personal safety support and should be used responsibly.
-- Emergency features depend on device permissions, connectivity, battery status, and trusted-contact setup.
-- For public or production deployment, additional security review, compliance checks, and testing are recommended.
+- Emergency features depend on device permissions, internet access, battery state, and trusted contact configuration.
+- For public deployment, it is recommended to perform additional testing, compliance checks, and security review.
 
-## License
+## 📜 License
 
-This project does not currently include an explicit license file. If the project will be distributed publicly, add a license before release.
+This project currently does not include an explicit license file. If you plan to distribute it publicly, add a license before release.
+
+<div align="center">
+
+Made with ❤️ for personal safety and awareness.
+
+</div>
 
