@@ -1,0 +1,25 @@
+<resources>
+    <style name="Base.Theme.ProtectHer" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/tech_accent_cyan</item>
+        <item name="colorOnPrimary">@color/tech_bg</item>
+        <item name="colorSecondary">@color/tech_accent_blue</item>
+        <item name="colorOnSecondary">@color/tech_bg</item>
+        <item name="colorTertiary">@color/tech_accent_purple</item>
+        <item name="colorOnTertiary">@color/tech_bg</item>
+        <item name="colorSurface">@color/tech_card_bg</item>
+        <item name="colorOnSurface">@color/tech_text_primary</item>
+        <item name="colorSurfaceVariant">@color/tech_surface_raised</item>
+        <item name="colorOnSurfaceVariant">@color/tech_text_secondary</item>
+        <item name="colorError">@color/tech_danger_red</item>
+        <item name="android:colorAccent">@color/tech_accent_cyan</item>
+        <item name="android:windowBackground">@color/tech_bg</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/tech_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Theme.ProtectHer" parent="Base.Theme.ProtectHer" />
+</resources>
